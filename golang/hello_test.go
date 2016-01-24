@@ -14,8 +14,8 @@ type CallbackImpl struct {
 
 }
 
-func (c CallbackImpl) callJava() {
-	fmt.Println("callJava")
+func (c CallbackImpl) CallJava() {
+	fmt.Println("CallJava")
 }
 
 func TestCallJava(t *testing.T)  {

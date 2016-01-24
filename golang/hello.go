@@ -9,9 +9,9 @@ func Hello(name string) string {
 }
 
 type Callback interface  {
-	callJava()
+	CallJava()
 }
 
 func CallJava(c Callback) {
-	c.callJava()
+	c.CallJava()
 }
