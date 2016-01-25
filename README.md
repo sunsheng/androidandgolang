@@ -1,5 +1,6 @@
 ```bash
-$ go get github.com/linguofeng/androidandgolang
+$ mkdir -p $GOPATH/src/github.com/linguofeng/androidandgolang
+$ git clone https://github.com/linguofeng/androidandgolang.git $GOPATH/src/github.com/linguofeng/androidandgolang
 $ open $GOPATH/src/github.com/linguofeng/androidandgolang
 ```
 
