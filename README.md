@@ -1,5 +1,5 @@
 ```bash
-$ go get https://github.com/linguofeng/androidandgolang
+$ go get github.com/linguofeng/androidandgolang
 $ open $GOPATH/src/github.com/linguofeng/androidandgolang
 ```
 
