@@ -1,4 +1,4 @@
-package android
+package golang
 
 import (
 	"fmt"
@@ -9,9 +9,10 @@ func Hello(name string) string {
 }
 
 type Callback interface  {
-	CallJava()
+	CallByGo(string)
 }
 
-func CallJava(c Callback) {
-	c.CallJava()
+func SendStr(str string, c Callback) {
+	str2 := "Go " + str
+	c.CallByGo(str2)
 }

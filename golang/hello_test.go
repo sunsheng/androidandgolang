@@ -1,4 +1,4 @@
-package android
+package golang
 
 import (
 	"testing"
@@ -14,10 +14,10 @@ type CallbackImpl struct {
 
 }
 
-func (c CallbackImpl) CallJava() {
-	fmt.Println("CallJava")
+func (c CallbackImpl) CallByGo(str string) {
+	fmt.Println(str)
 }
 
 func TestCallJava(t *testing.T)  {
-	CallJava(CallbackImpl{})
+	SendStr("test", CallbackImpl{})
 }
