@@ -11,3 +11,10 @@ $ open $GOPATH/src/github.com/linguofeng/androidandgolang
 Demo
 
 [https://blog.linguofeng.com/2016/01/24/android-and-golang.html](https://blog.linguofeng.com/2016/01/24/android-and-golang.html)
+
+proposal: expose Java API to gomobile bind programs
+https://github.com/golang/go/issues/16876
+
+
+Binding Go and Java
+https://docs.google.com/document/d/1y9hStonl9wpj-5VM-xWrSTuEJFUAxGOXOhxvAs7GZHE/edit
